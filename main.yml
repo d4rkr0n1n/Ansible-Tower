@@ -1,6 +1,6 @@
 - hosts: all
-#   remote_user: nahmed
-#   become: true
+  remote_user: root
+  become: true
   vars:
     project_root: /var/www/html
   tasks:  
